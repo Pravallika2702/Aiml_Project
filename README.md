@@ -7,6 +7,9 @@ Project Overview:
 This project predicts daily sales for multiple products using historical sales data and time-based features. The model uses Random Forest Regression to forecast sales, allowing businesses to optimize inventory, plan marketing campaigns, and make data-driven decisions.
 
 
+
+
+
 Dataset :
 
 File: market_sales.csv
@@ -20,6 +23,10 @@ product_id: Unique identifier for each product
 sales: Number of units sold
 
 The dataset contains historical sales data for multiple products over time.
+
+
+
+
 
 
 Features :
@@ -43,9 +50,15 @@ lag_7: Sales of 7 days ago
 lag_14: Sales of 14 days ago
 
 
+
+
+
 Product encoding :
 
 product_id is one-hot encoded to handle categorical values
+
+
+
 
 
 Model :
@@ -70,6 +83,10 @@ Trained using an 80/20 train-test split.
 
 
 
+
+
+
+
 Performance Metrics :
 
 After training, the model is evaluated using:
@@ -83,11 +100,20 @@ R² Score (Coefficient of Determination)
 The metrics are printed in the console after execution.
 
 
+
+
+
+
 Visualization :
 
 Actual vs Predicted Sales
 
 The first 150 time steps of actual and predicted sales are plotted for visual comparison.
+
+
+
+
+
 
 
 Requirements :
@@ -103,6 +129,10 @@ numpy
 matplotlib
 
 scikit-learn
+
+
+
+
 
 
 Usage (Google Colab) :
@@ -127,6 +157,10 @@ Usage (Google Colab) :
   
   4.Plot Actual vs Predicted sales
   
+
+
+
+
 
  
 Output: 
